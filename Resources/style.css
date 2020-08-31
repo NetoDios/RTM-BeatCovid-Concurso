@@ -1,0 +1,125 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    padding: 5vh 10vw;
+    margin: 0;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    height: 70vh;
+    background-color: rgba(212, 212, 212, 0.397);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+button{
+    border: none;
+}
+.Score{
+    background-color: rgba(212, 212, 212, 0.397);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 30%;
+    height: 90%;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.Categoria{
+    width: 25%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.Recuadro{
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.397);
+}
+.Recuadro:hover{
+    height: 33%;
+    width: 93%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.397);
+}
+.Recuadro:hover .Falta, .Done{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.Recuadro:focus{
+    display: none;
+}
+.Falta, .Done{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+}
+.Pregunta{
+    height: 70vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.Points{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Add, .Sub, .Close{
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+.Add{
+    background-color: rgb(54, 194, 54);
+}
+.Sub{
+    background-color: rgb(194, 54, 54);
+}
+.NoDisplay{
+    display: none;
+}
+
+
+.Color-Amarillo{
+    background-color: rgb(255,172,22);
+}
+.Color-Azul{
+    background-color: rgb(23,74,153);
+}
+.Color-Rosa{
+    background-color: rgb(246,172,195);
+}
+.Color-Coral{
+    background-color: rgb(234,53,108);
+}
